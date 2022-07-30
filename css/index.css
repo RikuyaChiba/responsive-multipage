@@ -251,3 +251,36 @@ header {
     padding: 0.7rem;
     border-radius: 0.9rem;
 }
+
+/* ================ POPULAR COURSES ================== */
+
+.courses__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.course {
+    background-color: var(--color-bg-1);
+    border: solid 1px transparent;
+    transition: var(--transition);
+}
+
+.course:hover {
+    background-color: transparent;
+    border-color: var(--color-primary);
+}
+
+.course__header img {
+    height: 13rem;
+}
+
+.course__body {
+    text-align: center;
+    padding: 1.9rem;
+}
+
+.course__body p {
+    font-size: 0.9rem;
+    margin: 1.2rem 0 2rem;
+}
