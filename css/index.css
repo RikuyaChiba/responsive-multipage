@@ -115,9 +115,16 @@ nav {
     z-index: 11;
 }
 
+/* Change navbar styles on scroll using Javascript */
+.window-scroll {
+    background-color: var(--color-primary);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3); 
+}
+
 nav button {
     display: none;
 }
+
 
 .nav__container {
     height: 100%;
@@ -145,7 +152,10 @@ nav button {
 
 header {
     position: relative;
-    top: 5rem
+    top: 5rem;
+    background-color: var(--color-bg);
+    height: 70vh;
+    margin-bottom: 5rem;
 }
 
 .header__container {
@@ -156,6 +166,88 @@ header {
     height: 100%;
 }
 
+.header h1 {
+    margin
+}
+
 .header__left p {
     margin: 1rem 0 2.4rem;
+}
+
+
+/* ================ CATEGORIES ================== */
+
+.categories {
+    background: var(--color-bg-1);
+}
+
+.categories__container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.categories__left p {
+    margin: 1rem 0 2.4rem;
+}
+
+.categories__right {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.2rem;
+}
+
+.category {
+    padding: 2rem;
+    border-radius: 2rem;
+    background-color: var(--color-bg-2);
+    transition: var(--transition);
+}
+
+.category:hover {
+    box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.category h5 {
+    margin: 1rem 0 1.5rem;
+}
+
+.category p {
+    font-size: 0.85rem;
+}
+
+.category:nth-child(1) span {
+    background-color: var(--color-primary); 
+    padding: 0.7rem;
+    border-radius: 0.9rem;
+}
+
+.category:nth-child(2) span {
+    background-color: var(--color-success); 
+    padding: 0.7rem;
+    border-radius: 0.9rem;
+}
+
+.category:nth-child(3) span {
+    background-color: var(--color-warning); 
+    padding: 0.7rem;
+    border-radius: 0.9rem;
+}
+
+.category:nth-child(4) span {
+    background-color: var(--color-success); 
+    padding: 0.7rem;
+    border-radius: 0.9rem;
+}
+
+.category:nth-child(5) span {
+    background-color: var(--color-danger); 
+    padding: 0.7rem;
+    border-radius: 0.9rem;
+}
+
+.category:nth-child(6) span {
+    background-color: var(--color-primary); 
+    padding: 0.7rem;
+    border-radius: 0.9rem;
 }
