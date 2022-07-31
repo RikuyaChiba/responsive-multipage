@@ -54,7 +54,7 @@ h2,
 h3,
 h4,
 h5 {
-    line-height: 1.2;    
+    line-height: 1.2;
 }
 
 h1 {
@@ -71,7 +71,7 @@ h3 {
 
 h4 {
     font-size: 1.3rem;
-} 
+}
 
 a {
     color: var(--color-white);
@@ -118,7 +118,7 @@ nav {
 /* Change navbar styles on scroll using Javascript */
 .window-scroll {
     background-color: var(--color-primary);
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3); 
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 nav button {
@@ -217,37 +217,37 @@ header {
 }
 
 .category:nth-child(1) span {
-    background-color: var(--color-primary); 
+    background-color: var(--color-primary);
     padding: 0.7rem;
     border-radius: 0.9rem;
 }
 
 .category:nth-child(2) span {
-    background-color: var(--color-success); 
+    background-color: var(--color-success);
     padding: 0.7rem;
     border-radius: 0.9rem;
 }
 
 .category:nth-child(3) span {
-    background-color: var(--color-warning); 
+    background-color: var(--color-warning);
     padding: 0.7rem;
     border-radius: 0.9rem;
 }
 
 .category:nth-child(4) span {
-    background-color: var(--color-success); 
+    background-color: var(--color-success);
     padding: 0.7rem;
     border-radius: 0.9rem;
 }
 
 .category:nth-child(5) span {
-    background-color: var(--color-danger); 
+    background-color: var(--color-danger);
     padding: 0.7rem;
     border-radius: 0.9rem;
 }
 
 .category:nth-child(6) span {
-    background-color: var(--color-primary); 
+    background-color: var(--color-primary);
     padding: 0.7rem;
     border-radius: 0.9rem;
 }
@@ -284,6 +284,48 @@ header {
     font-size: 0.9rem;
     margin: 1.2rem 0 2rem;
 }
+
+/* ================  TESTIMONIALS ================== */
+
+.testimonial__avatar {
+    width: 6rem;
+    height: 6rem; 
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 1rem;
+    border: 1rem solid var(--color-bg-1);
+}
+
+.testimonial__info {
+    text-align: center;
+}
+
+.testimonial__body {
+    background-color: var(--color-primary);
+    margin-top: 2rem;
+    padding: 2rem;
+    position: relative;
+}
+
+.testimonial__body::before {
+    content: '';
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    background: linear-gradient(
+        135deg,
+        transparent,
+        var(--color-primary),
+        var(--color-primary),
+        var(--color-primary),
+    );
+    position: absolute;
+    left: 50%;
+    top: -1.5rem;
+    transform: rotate(45deg);
+}
+
 
 /* ================  FAQS ================== */
 
