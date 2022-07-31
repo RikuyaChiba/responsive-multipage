@@ -77,6 +77,10 @@ a {
     color: var(--color-white);
 }
 
+p {
+    user-select: none;
+}
+
 img {
     width: 100%;
     display: block;
@@ -311,17 +315,11 @@ header {
 .testimonial__body::before {
     content: '';
     display: block;
+    background: var(--color-primary);
     width: 3rem;
     height: 3rem;
-    background: linear-gradient(
-        135deg,
-        transparent,
-        var(--color-primary),
-        var(--color-primary),
-        var(--color-primary),
-    );
     position: absolute;
-    left: 50%;
+    left: 45%;
     top: -1.5rem;
     transform: rotate(45deg);
 }
