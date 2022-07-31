@@ -6,6 +6,7 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    user-select: none;
 }
 
 :root {
@@ -75,10 +76,6 @@ h4 {
 
 a {
     color: var(--color-white);
-}
-
-p {
-    user-select: none;
 }
 
 img {
