@@ -168,11 +168,51 @@ header {
 }
 
 .header h1 {
-    margin
+    margin: 1rem 0 2rem;
 }
 
 .header__left p {
     margin: 1rem 0 2.4rem;
+}
+
+.header__right > p {
+    margin: 1rem 0 2.4rem;
+}
+
+.achievements__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.achievement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-bg-1);
+    border-radius: 1rem;
+    padding: 1rem 0 1.5rem;
+}
+
+.achievement h4 {
+    margin: 2rem 0 1rem;
+}
+
+.achievement__image {
+    font-size: 3rem;
+    border-radius: 1rem;
+}
+
+.achievement__image--1 {
+    background-color: var(--color-danger);
+}
+
+.achievement__image--2 {
+    background-color: var(--color-success);
+}
+
+.achievement__image--3 {
+    background-color: var(--color-warning);
 }
 
 
