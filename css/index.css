@@ -200,19 +200,24 @@ header {
 
 .achievement__image {
     font-size: 3rem;
-    border-radius: 1rem;
 }
 
 .achievement__image--1 {
+    border-radius: 1rem;
     background-color: var(--color-danger);
+    padding: 0 1rem;
 }
 
 .achievement__image--2 {
+    border-radius: 1rem;
     background-color: var(--color-success);
+    padding: 0 1rem;
 }
 
 .achievement__image--3 {
+    border-radius: 1rem;
     background-color: var(--color-warning);
+    padding: 0 1rem;
 }
 
 
