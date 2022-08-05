@@ -1,0 +1,30 @@
+/* ================  OUR TEAM  ================== */
+
+.our-team {
+    background-color: var(--color-bg-1);
+    box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5);
+}
+
+.our-team__container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    text-align: center;
+}
+
+.person {
+    padding: 2rem;
+    background-color: var(--color-bg-2);
+    border-radius: 1rem;
+}
+
+
+.person__image img {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 1rem;
+}
+
+.person__info h4 {
+    margin: 1rem 0 2rem;
+}
